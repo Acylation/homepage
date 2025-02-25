@@ -7,31 +7,17 @@
 	let { children, data } = $props();
 </script>
 
-<div class="app">
+<div class="flex min-h-screen flex-col">
 	<Header />
 
-	<main in:fade>
+	<main
+		class="mx-auto flex w-full max-w-screen-2xl flex-1 flex-col px-4 py-8 sm:py-16 lg:px-6"
+		in:fade
+	>
 		{@render children?.()}
 	</main>
 
 	<Footer />
 </div>
 
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>
+<style></style>

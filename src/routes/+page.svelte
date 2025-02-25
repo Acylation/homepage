@@ -1,7 +1,5 @@
 <script lang="ts">
 	let { data } = $props();
-
-	import Counter from './Counter.svelte';
 	import BlogCard from './BlogCard.svelte';
 </script>
 
@@ -10,30 +8,18 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<Counter />
+<div class="container mx-auto px-4">
+	<!-- Section Title -->
+	<div class="mb-6">
+		<h1 class="w-full border-b-2 border-gray-300 pb-2 text-2xl font-bold">Featured</h1>
+	</div>
 
-	<ul class="posts mb16">
+	<!-- Responsive Grid -->
+	<section class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
 		{#each data.posts as post}
-			<!-- to format as a gallery -->
-			<ul class="flex flex-col items-center">
-				<BlogCard {post} />
-			</ul>
+			<BlogCard {post} />
 		{/each}
-	</ul>
-</section>
+	</section>
+</div>
 
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	.posts {
-		display: grid;
-		gap: var(--size-7);
-	}
-</style>
+<style></style>
