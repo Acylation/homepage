@@ -1,10 +1,19 @@
-import type { Post } from '$lib/types.js';
+import type { PageServerLoad } from './$types';
+import type { Post } from '$lib/types';
 
-export async function load({ fetch, params }) {
-	const response = await fetch('../api/posts');
-	const rawPosts: Post[] = await response.json();
-	const taggedPosts = rawPosts.filter((p) => p.tags.includes(params.slug));
-	return { posts: taggedPosts };
-}
+export const load: PageServerLoad = async ({ params, fetch }) => {
+	const { slug } = params;
+
+	const response = await fetch('/api/posts');
+	const allPosts: Post[] = await response.json();
+
+	const posts = allPosts.filter((post) => post.tags?.includes(slug));
+
+	return {
+		posts,
+		tag: slug,
+		decodedTag: decodeURIComponent(slug)
+	};
+};
 
 export const prerender = true;

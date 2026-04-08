@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	plugins: [sveltekit(), tailwindcss()],
 	optimizeDeps: {
-		include: ['flowbite-svelte', 'flowbite-svelte-icons', 'temporal-polyfill'],
+		include: ['temporal-polyfill'],
 		exclude: ['@sveltejs/kit', 'svelte']
 	},
 	server: {

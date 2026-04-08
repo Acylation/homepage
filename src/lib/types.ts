@@ -4,7 +4,18 @@ export type Post = {
 	description: string;
 	image: string;
 	date: string;
-	type: string; // Article, review, essay, news, prospective, tutorial, etc.
-	tags: string[];
+	tags?: string[];
 	published: boolean;
+	series?: string;
+	readingTime?: number;
+};
+
+export type Series = {
+	name: string;
+	slug: string;
+	description: string;
+};
+
+export type SeriesWithCount = Series & {
+	count: number;
 };

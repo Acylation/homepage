@@ -1,36 +1,27 @@
 <script lang="ts">
 	let { data } = $props();
 
-	import BlogCard from '../BlogCard.svelte';
+	import BlogRow from '$lib/components/BlogRow.svelte';
 </script>
 
 <svelte:head>
-	<title>Posts</title>
-	<meta name="description" content="all my posts" />
+	<title>博客</title>
+	<meta name="description" content="全部博文" />
 </svelte:head>
 
-<section>
-	<ul class="posts mb16">
-		{#each data.posts as post}
-			<!-- to format as a gallery -->
-			<ul class="flex flex-col items-center">
-				<BlogCard {post} />
-			</ul>
+<section class="w-full">
+	<div class="mb-6 px-6">
+		<h1 class="section-title mb-2">博客</h1>
+		<p class="section-subtitle">placeholder</p>
+	</div>
+
+	<div class="card-shell">
+		{#each data.posts as post, index}
+			<BlogRow {post} />
 		{/each}
-	</ul>
+
+		{#if data.posts.length === 0}
+			<div class="p-8 text-center text-(--text-tertiary)">暂时还没有文章。</div>
+		{/if}
+	</div>
 </section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	.posts {
-		display: grid;
-		gap: var(--size-7);
-	}
-</style>

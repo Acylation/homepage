@@ -1,0 +1,169 @@
+{
+	"metadata": {
+		"generatedAt": "2025-08-07T00:00:00.000Z",
+		"source": "ResearchGate",
+		"totalPublications": 11
+	},
+	"publications": [
+		{
+			"id": "rg-1",
+			"title": "Challenges in Detecting Hydroxyl Radicals Generated in Water Droplets with Mass Spectrometry",
+			"authors": [
+				"Dong Xing",
+				"Xufeng Gao",
+				"Huan Chen",
+				"Jianze Zhang",
+				"Madison E Edwards",
+				"Chiyu Liang",
+				"Chongqin Zhu",
+				"Yifan Meng",
+				"Richard N Zare",
+				"Yu Xia",
+				"Xinxing Zhang"
+			],
+			"publication": "Analytical Chemistry",
+			"year": 2025,
+			"date": "April 2025",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/390376841_Challenges_in_Detecting_Hydroxyl_Radicals_Generated_in_Water_Droplets_with_Mass_Spectrometry"
+			},
+			"tags": ["Analytical Chemistry", "Mass Spectrometry", "Water Droplets"]
+		},
+		{
+			"id": "rg-2",
+			"title": "Atomization by Acoustic Levitation Facilitates Contactless Microdroplet Reactions",
+			"authors": [
+				"Xiaoxu Li",
+				"Xianyu Nong",
+				"Chenghui Zhu",
+				"Xufeng Gao",
+				"Huan Chen",
+				"Xu Yuan",
+				"Dong Xing",
+				"Lu Liu",
+				"Chiyu Liang",
+				"Duyang Zang",
+				"Xinxing Zhang"
+			],
+			"publication": "Journal of the American Chemical Society",
+			"year": 2024,
+			"date": "October 2024",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/385050157_Atomization_by_Acoustic_Levitation_Facilitates_Contactless_Microdroplet_Reactions"
+			},
+			"tags": ["Journal of the American Chemical Society", "Acoustic Levitation", "Microdroplets"]
+		},
+		{
+			"id": "rg-3",
+			"title": "Harnessing the High Interfacial Electric Fields on Water Microdroplets to Accelerate Menshutkin Reactions",
+			"authors": [
+				"Zhexuan Song",
+				"Chiyu Liang",
+				"Ke Gong",
+				"Supin Zhao",
+				"Xu Yuan",
+				"Xinxing Zhang",
+				"Jing Xie"
+			],
+			"publication": "Journal of the American Chemical Society",
+			"year": 2023,
+			"date": "November 2023",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/375974086_Harnessing_the_High_Interfacial_Electric_Fields_on_Water_Microdroplets_to_Accelerate_Menshutkin_Reactions"
+			},
+			"tags": [
+				"Journal of the American Chemical Society",
+				"Electric Fields",
+				"Menshutkin Reactions"
+			]
+		},
+		{
+			"id": "rg-4",
+			"title": "Spontaneous Oxidation and Hydration of Aromatic Aldehydes in Microdroplets and its Atmospheric Implications",
+			"authors": ["Chiyu Liang", "Xinxing Zhang"],
+			"publication": "Journal of Chinese Mass Spectrometry Society",
+			"year": 2023,
+			"date": "March 2023",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/369550549_Spontaneous_Oxidation_and_Hydration_of_Aromatic_Aldehydes_in_Microdroplets_and_its_Atmospheric_Implications"
+			},
+			"tags": ["Journal of Chinese Mass Spectrometry Society", "Oxidation", "Atmospheric Chemistry"]
+		},
+		{
+			"id": "rg-5",
+			"title": "Spontaneous Reduction of Transition Metal Ions by One Electron in Water Microdroplets and the Atmospheric Implications",
+			"authors": ["Xu Yuan", "Dongmei Zhang", "Chiyu Liang", "Xinxing Zhang"],
+			"publication": "Journal of the American Chemical Society",
+			"year": 2023,
+			"date": "January 2023",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/367480768_Spontaneous_Reduction_of_Transition_Metal_Ions_by_One_Electron_in_Water_Microdroplets_and_the_Atmospheric_Implications"
+			},
+			"tags": ["Journal of the American Chemical Society", "Transition Metals", "Electron Transfer"]
+		},
+		{
+			"id": "rg-6",
+			"title": "Ultra-Fast Fabrication of Photonic Crystals Based on Silicon Dioxide",
+			"authors": ["Chiyu Liang", "Sihan Zhang", "Chenxin Lu", "Xiaohang Qiu"],
+			"publication": "University Chemistry",
+			"year": 2023,
+			"date": "January 2023",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/369246443_Ultra-Fast_Fabrication_of_Photonic_Crystals_Based_on_Silicon_Dioxide"
+			},
+			"tags": ["University Chemistry", "Photonic Crystals", "Silicon Dioxide"]
+		},
+		{
+			"id": "rg-7",
+			"title": "Discussion on the Calculation of Apparent Dissociation Constant in Problem 4-9 of the 54th International Chemistry Olympiad",
+			"authors": ["Sihan Zhang", "Chiyu Liang", "Xiaohang Qiu"],
+			"publication": "University Chemistry",
+			"year": 2022,
+			"date": "October 2022",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/364713138_Discussion_on_the_Calculation_of_Apparent_Dissociation_Constant_in_Problem_4-9_of_the_54th_International_Chemistry_Olympiad"
+			},
+			"tags": ["University Chemistry", "Chemistry Olympiad", "Dissociation Constant"]
+		},
+		{
+			"id": "rg-8",
+			"title": "Spontaneous Oxidation of I- in Water Microdroplets and its Atmospheric Implications",
+			"authors": [
+				"Dong Xing",
+				"Xu Yuan",
+				"Chiyu Liang",
+				"Tianyun Jin",
+				"Shuquan Zhang",
+				"Xinxing Zhang"
+			],
+			"publication": "Chemical Communications",
+			"year": 2022,
+			"date": "October 2022",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/364502995_Spontaneous_Oxidation_of_I-_in_Water_Microdroplets_and_its_Atmospheric_Implications"
+			},
+			"tags": ["Chemical Communications", "Iodide Oxidation", "Atmospheric Chemistry"]
+		},
+		{
+			"id": "rg-9",
+			"title": "An 241 Am Plasma Desorption Ionization (AmDI) Source Scavenged from Smoke Detectors for Ambient Mass Spectrometry Sampling",
+			"authors": ["Dong Xing", "Chiyu Liang", "Xu Yuan", "Xinxing Zhang"],
+			"publication": "Analytical Chemistry",
+			"year": 2022,
+			"date": "June 2022",
+			"type": "journal",
+			"links": {
+				"researchgate": "https://www.researchgate.net/publication/361127565_An_241_Am_Plasma_Desorption_Ionization_AmDI_Source_Scavenged_from_Smoke_Detectors_for_Ambient_Mass_Spectrometry_Sampling"
+			},
+			"tags": ["Analytical Chemistry", "Mass Spectrometry", "Plasma Desorption"]
+		}
+	]
+}

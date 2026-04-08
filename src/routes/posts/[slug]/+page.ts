@@ -1,16 +1,18 @@
 import { error } from '@sveltejs/kit';
+import { getPostBySlug } from '$lib/posts';
 
 export async function load({ params }) {
-	try {
-		const post = await import(`../../../posts/${params.slug}.md`);
+	const post = await getPostBySlug(params.slug);
 
-		return {
-			content: post.default,
-			meta: post.metadata
-		};
-	} catch (e) {
-		throw error(404, `Could not find ${params.slug}, ${e}`);
+	if (!post) {
+		throw error(404, `Could not find ${params.slug}`);
 	}
+
+	if (!post.content) {
+		throw error(404, `Could not render ${params.slug}`);
+	}
+
+	return post;
 }
 
 export const prerender = true;
