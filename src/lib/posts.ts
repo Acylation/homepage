@@ -1,4 +1,3 @@
-import { Temporal } from 'temporal-polyfill';
 import type { Component } from 'svelte';
 import type { Post } from '$lib/types';
 import { estimateReadingTime } from '$lib/utils';

@@ -42,8 +42,5 @@
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0",
 		"vite": "^8.0.2"
-	},
-	"dependencies": {
-		"temporal-polyfill": "^0.2.5"
 	}
 }

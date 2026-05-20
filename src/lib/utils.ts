@@ -19,9 +19,6 @@ export type WithElementRef<T, U extends HTMLElement = HTMLElement> = T & { ref?:
 /*
   For posts
 */
-
-import { Temporal } from 'temporal-polyfill';
-
 type DateStyle = Intl.DateTimeFormatOptions['dateStyle'];
 
 //TODO: localization
