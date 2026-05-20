@@ -54,13 +54,13 @@
 					<a
 						href="https://github.com/Acylation"
 						title="GitHub"
-						class="bg-surface text-muted hover:text-main flex h-12 w-12 items-center justify-center rounded-full shadow-md transition-all duration-300 hover:shadow-lg"
+						class="bg-surface group text-muted hover:text-main flex h-12 w-12 items-center justify-center rounded-full shadow-md transition-all duration-300 hover:shadow-lg"
 						aria-label="GitHub Profile"
 					>
 						<img
 							src={GithubIcon}
 							alt="GitHub"
-							class="h-6 w-6 grayscale filter transition-all duration-300 group-hover:grayscale-0"
+							class="h-6 w-6 opacity-60 transition-all duration-300 group-hover:opacity-100"
 						/>
 					</a>
 				</div>
